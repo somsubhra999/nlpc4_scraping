@@ -11,8 +11,7 @@ consolidated = ''
 soup = BeautifulSoup(open(html_path, encoding='utf-8'), 'html.parser')
 
 fdist_list = [None, None, None, None]
-# for leader in soup.findAll('p', {'class': 'leader-name'}):
-#     print(leader)
+
 
 def clean_text(inp_text, lower = False):
     """
